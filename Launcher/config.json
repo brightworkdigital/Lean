@@ -6,6 +6,11 @@
   // two predefined environments, 'backtesting' and 'live', feel free
   // to add more!
 
+  // Used by BenzingaNews
+  "temp-output-directory": "/tmp/temp-output-directory/",
+  "raw-folder": "/tmp/raw",
+  "benzinga-daily-folder": "/tmp/benzinga-daily",
+  
   "environment": "backtesting", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
 
   // algorithm class selector

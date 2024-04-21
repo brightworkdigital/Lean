@@ -7,3 +7,6 @@
 [submodule "Lean.DataSource.SDK"]
 	path = Lean.DataSource.SDK
 	url = https://github.com/brightworkdigital/Lean.DataSource.SDK.git
+[submodule "Lean.DataSource.SEC"]
+	path = Lean.DataSource.SEC
+	url = https://github.com/QuantConnect/Lean.DataSource.SEC.git
