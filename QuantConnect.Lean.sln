@@ -54,6 +54,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantConnect.Optimizer", "O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantConnect.Optimizer.Launcher", "Optimizer.Launcher\QuantConnect.Optimizer.Launcher.csproj", "{D46D2A8D-340C-4B40-8EE6-6BAA7B1198AB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BenzingaNews", "BenzingaNews", "{369470D5-99F6-419C-A5D6-72BC880EEA5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantConnect.DataSource", "Lean.DataSource.BenzingaNews\QuantConnect.DataSource.csproj", "{7296E32C-BAF5-45BB-AB1C-386742699EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantConnect.DataSource", "Lean.DataSource.BenzingaNews\QuantConnect.DataSource.csproj", "{DEF81A93-69C1-488B-8449-45D96C207B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProcessing", "Lean.DataSource.BenzingaNews\DataProcessing\DataProcessing.csproj", "{8C855AB7-9F95-4E54-BE31-A77D6DE71298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataQueueHandlers", "Lean.DataSource.BenzingaNews\DataQueueHandlers\DataQueueHandlers.csproj", "{5EB0B7E2-3BAF-47DE-BBA4-4C50BA5ACA00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -146,11 +156,32 @@ Global
 		{D46D2A8D-340C-4B40-8EE6-6BAA7B1198AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D46D2A8D-340C-4B40-8EE6-6BAA7B1198AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D46D2A8D-340C-4B40-8EE6-6BAA7B1198AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7296E32C-BAF5-45BB-AB1C-386742699EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7296E32C-BAF5-45BB-AB1C-386742699EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7296E32C-BAF5-45BB-AB1C-386742699EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7296E32C-BAF5-45BB-AB1C-386742699EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF81A93-69C1-488B-8449-45D96C207B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF81A93-69C1-488B-8449-45D96C207B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF81A93-69C1-488B-8449-45D96C207B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF81A93-69C1-488B-8449-45D96C207B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C855AB7-9F95-4E54-BE31-A77D6DE71298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C855AB7-9F95-4E54-BE31-A77D6DE71298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C855AB7-9F95-4E54-BE31-A77D6DE71298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C855AB7-9F95-4E54-BE31-A77D6DE71298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB0B7E2-3BAF-47DE-BBA4-4C50BA5ACA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB0B7E2-3BAF-47DE-BBA4-4C50BA5ACA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB0B7E2-3BAF-47DE-BBA4-4C50BA5ACA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB0B7E2-3BAF-47DE-BBA4-4C50BA5ACA00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67BACDB0-1FDB-4AF0-A199-88CF436FB470}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEF81A93-69C1-488B-8449-45D96C207B4A} = {369470D5-99F6-419C-A5D6-72BC880EEA5E}
+		{8C855AB7-9F95-4E54-BE31-A77D6DE71298} = {369470D5-99F6-419C-A5D6-72BC880EEA5E}
+		{5EB0B7E2-3BAF-47DE-BBA4-4C50BA5ACA00} = {369470D5-99F6-419C-A5D6-72BC880EEA5E}
 	EndGlobalSection
 EndGlobal

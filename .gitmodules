@@ -1,0 +1,9 @@
+[submodule "Lean.DataSource.BenzingaNews"]
+	path = Lean.DataSource.BenzingaNews
+	url = https://github.com/brightworkdigital/Lean.DataSource.BenzingaNews.git
+[submodule "Lean.DataSource.IQFeed"]
+	path = Lean.DataSource.IQFeed
+	url = https://github.com/brightworkdigital/Lean.DataSource.IQFeed.git
+[submodule "Lean.DataSource.SDK"]
+	path = Lean.DataSource.SDK
+	url = https://github.com/brightworkdigital/Lean.DataSource.SDK.git
